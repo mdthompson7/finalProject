@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="facts">Facts</string>
+    <string name="title">FinalProject</string>
+    <string name="factsButton">FinalProject</string>
+    <string name="picButton">FinalProject</string>
+    <string name="rateButton">FinalProject</string>
+    <string name="Cat_Facts">Cat Facts</string>
+    <string name="Show_me_Cats">Show me Cats</string>
+    <string name="Rate_my_Cat">Rate my Cat</string>
+    <string name="back">&lt; Home</string>
+    <string name="logocat">logo</string>
+</resources>
