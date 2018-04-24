@@ -10,4 +10,14 @@
     <string name="Rate_my_Cat">Rate my Cat</string>
     <string name="back">&lt; Home</string>
     <string name="logocat">logo</string>
+    <string name="catlogo">logo</string>
+    <string name="give">Give me Another</string>
+    <string name="show">Show me Another</string>
+    <string name="temp">TEMP</string>
+    <string name="cat">cat</string>
+    <string name="upload">Upload</string>
+    <string name="rate">Rate!</string>
+    <string name="clear">Clear</string>
+    <string name="none">""</string>
+    <string name="dog">dog</string>
 </resources>
