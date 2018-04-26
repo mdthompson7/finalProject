@@ -12,6 +12,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import com.squareup.picasso.MemoryPolicy;
+import com.squareup.picasso.NetworkPolicy;
 import com.squareup.picasso.Picasso;
 
 import java.io.InputStream;
@@ -45,7 +47,11 @@ public class PicActivity extends AppCompatActivity {
                 //Picasso.get().load("http://thecatapi.com/api/images/get?type=jpg").into(catPic);
                 ImageView imageView;
                 imageView = (ImageView) findViewById(R.id.imageView);
-                Picasso.get().load("https://78.media.tumblr.com/Jjkybd3nSaqklngxLHjCTds3_500.jpg").noPlaceholder().into(imageView);
+                Picasso.get().load(imgURL)
+                            .memoryPolicy(MemoryPolicy.NO_CACHE)
+                            .networkPolicy(NetworkPolicy.NO_CACHE)
+                            .noPlaceholder()
+                            .into(imageView);
                 imageView.setVisibility(View.VISIBLE);
             }
         });
