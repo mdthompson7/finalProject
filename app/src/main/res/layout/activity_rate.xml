@@ -11,13 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="fill_parent">
 
-        <TextView
-            android:id="@+id/jsonResult"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-condensed"
-            android:textAlignment="viewStart"
-            android:textColor="@android:color/black" />
+
     </ScrollView>
 
     <TextView
@@ -152,7 +146,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:contentDescription="@string/cat"
-        android:src="@drawable/cat"
+        android:src="@drawable/cattitude_logocat"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.518"
@@ -169,7 +163,6 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/back"
-        android:fontFamily="@font/rounded"
         android:gravity="center"
         android:text="@string/temp"
         android:textSize="20sp"
@@ -193,7 +186,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.381"
-        app:srcCompat="@drawable/doggo" />
+        app:srcCompat="@drawable/cattitude_logocat" />
 
 
 </android.support.constraint.ConstraintLayout>
