@@ -87,7 +87,7 @@ public final class RateActivity extends AppCompatActivity {
         final ImageView dogPic = (ImageView) findViewById(R.id.imageView5);
         dogPic.setVisibility(View.INVISIBLE);
 
-        final String[] catResponses = new String[10];
+        final String[] catResponses = new String[100];
         catResponses[0] = "Your cat is a 10/10, obviously!";
         catResponses[1] = "Best boy, 11/10.";
         catResponses[2] = "Oh boy, definitely 12/10.";
@@ -98,6 +98,96 @@ public final class RateActivity extends AppCompatActivity {
         catResponses[7] = "That is a cute cat.";
         catResponses[8] = "Hope that cat doesn't bite, 10/10.";
         catResponses[9] = "They're good cats, Brent.";
+        catResponses[10] = "Such a pretty kitty! 10/10.";
+        catResponses[11] = "Aww, look at that face! 12/10.";
+        catResponses[12] = "Beautiful cat, great eyes!";
+        catResponses[13] = "Lookin' good, 10/10.";
+        catResponses[14] = "Meow, 10/10.";
+        catResponses[15] = "Soft kitty!";
+        catResponses[16] = "What a little ball of fur... 11/10.";
+        catResponses[17] = "Happy kitty, 9/10.";
+        catResponses[18] = "Purrrrrrr, 8/10.";
+        catResponses[19] = "Purr purr purr, 9/10.";
+        catResponses[20] = "A+ snuggler, 10/10.";
+        catResponses[21] = "Clearly evil. Good. 10/10.";
+        catResponses[22] = "This cannot be rated on the meowf scale. 10/10 tho.";
+        catResponses[23] = "Not a nice kit. 9/10.";
+        catResponses[24] = "H*ckin' handsome. 10/10.";
+        catResponses[25] = "Wanna boop the snoot. 8/10.";
+        catResponses[26] = "Good lookin' upcat. 10/10. What's upcat? Not much, hbu?";
+        catResponses[27] = "Good boy, off the h*ckin charts. 13/10.";
+        catResponses[28] = "Looks like he needs an extended snuggle, 9/10.";
+        catResponses[29] = "14/10 truly exceptional.";
+        catResponses[30] = "12/10 FanCATstic! I'm sorry.";
+        catResponses[31] = "12/10 would protect at all costs.";
+        catResponses[32] = "8/10 would boop.";
+        catResponses[33] = "Not good. April fools, looks great 10/10.";
+        catResponses[34] = "18/10 truly impressive.";
+        catResponses[35] = "11/10 would definitely pet.";
+        catResponses[36] = "11/10 would get scratched to all hell.";
+        catResponses[37] = "I'm dead inside.";
+        catResponses[38] = "Marvelous. 9/10.";
+        catResponses[39] = "Weird looking cat, 10/10.";
+        catResponses[40] = "Downright awe-inspiring 12/10.";
+        catResponses[41] = "The bee's knees 8/10.";
+        catResponses[42] = "The cat's pajamas... no pajamas? 9/10.";
+        catResponses[43] = "Never have I ever had a cat this good 10/10.";
+        catResponses[44] = "110/10 an icon.";
+        catResponses[45] = "\"Is that a chicken?\" No Kylie it's a cat, 8/10.";
+        catResponses[46] = "12/10 very fierce.";
+        catResponses[47] = "Good girl, 10/10.";
+        catResponses[48] = "12/10 h*ckin relatable.";
+        catResponses[49] = "14/10 keep it up cat.";
+        catResponses[50] = "Very sad boi :( 9/10.";
+        catResponses[51] = "13/10.";
+        catResponses[52] = "11/10 would give him whatever he wants forever.";
+        catResponses[53] = "Thank you... 13/10.";
+        catResponses[54] = "12/10 would love forever.";
+        catResponses[55] = "Purrrrrfect 10/10.";
+        catResponses[56] = "11/10 someone help him.";
+        catResponses[57] = "10/10 my best friend.";
+        catResponses[58] = "11/10 would not disturb.";
+        catResponses[59] = "13/10 pretty as h*ck.";
+        catResponses[60] = "Angery cat. Would still pet 11/10.";
+        catResponses[61] = "Exotic cat 8/10.";
+        catResponses[62] = "WOULD HUG SOFTLY 10/10.";
+        catResponses[63] = "Please send more 7/10.";
+        catResponses[64] = "Churlish kitty. 9/10 tho.";
+        catResponses[65] = "13/10 impeccable.";
+        catResponses[66] = "9/10 would protect at all costs.";
+        catResponses[67] = "Would support his dreams 13/10.";
+        catResponses[68] = "12/10 passionate kitty.";
+        catResponses[69] = "14/10 would be an honor to pet.";
+        catResponses[70] = "Would cherish, 13/10.";
+        catResponses[71] = "H*ckin' 10/10.";
+        catResponses[72] = "10/10 Is it 2023 yet? (Vietnamese year of the cat)";
+        catResponses[73] = "12/10 would treasure.";
+        catResponses[74] = "Would snug 10/10.";
+        catResponses[75] = "Mlem 8/10.";
+        catResponses[76] = "It's good he has 9 lives, I want him around forever. 10/10";
+        catResponses[77] = "Would love unconditionally 11/10.";
+        catResponses[78] = "Handsomest boy, 13/10.";
+        catResponses[79] = "9/10 such a good boy.";
+        catResponses[80] = "13/10 adorable.";
+        catResponses[81] = "10/10 simply breathtaking.";
+        catResponses[82] = "12/10 would make a wonderful model.";
+        catResponses[83] = "I want to look at her whenever I'm stressed to feel better.";
+        catResponses[84] = "This is one pretty cat. 8/10.";
+        catResponses[85] = "14/10 would hug softly.";
+        catResponses[86] = "That is one happy h*ckin cat. 10/10.";
+        catResponses[87] = "11/10 inspiring af.";
+        catResponses[88] = "9/10 h*ckin' cute.";
+        catResponses[89] = "Infinity/10. By far my favorite cat.";
+        catResponses[90] = "15/10 would die for.";
+        catResponses[91] = "Oh h*ck too cute, 14/10.";
+        catResponses[92] = "This picture is heartwarming as h*ck. 12/10";
+        catResponses[93] = "11/10 would volunteer as tribute to pet.";
+        catResponses[94] = "14/10 snazzy cat.";
+        catResponses[95] = "11/10 breathtaking.";
+        catResponses[96] = "Best one yet 13/10.";
+        catResponses[97] = "Smol cat. 11/10.";
+        catResponses[98] = "What a good boy, 9/10.";
+        catResponses[99] = "14/10 fantastic cat.";
 
         final String notCat = "That's... not a cat. Try again.";
 
@@ -128,11 +218,11 @@ public final class RateActivity extends AppCompatActivity {
         rateButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Random generator = new Random();
-                int i = generator.nextInt(10);
+                int i = generator.nextInt(100);
                 if (photoView.getVisibility() == View.VISIBLE) {
                     if (text.getText().equals("")) {
                         while (i == getCurrent()) {
-                            i = generator.nextInt(10);
+                            i = generator.nextInt(100);
                         }
                         text.setText(catResponses[i]);
                         setCurrent(i);
