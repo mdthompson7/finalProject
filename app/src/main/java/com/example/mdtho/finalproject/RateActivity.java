@@ -219,7 +219,9 @@ public final class RateActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Random generator = new Random();
                 int i = generator.nextInt(100);
-                if (photoView.getVisibility() == View.VISIBLE) {
+                if (photoView == null) {
+                    text.setText(noPic);
+                } else if (photoView.getVisibility() == View.VISIBLE) {
                     if (text.getText().equals("")) {
                         while (i == getCurrent()) {
                             i = generator.nextInt(100);
