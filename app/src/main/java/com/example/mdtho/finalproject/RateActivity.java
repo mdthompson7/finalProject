@@ -125,7 +125,7 @@ public final class RateActivity extends AppCompatActivity {
         catResponses[34] = "18/10 truly impressive.";
         catResponses[35] = "11/10 would definitely pet.";
         catResponses[36] = "11/10 would get scratched to all hell.";
-        catResponses[37] = "I'm dead inside.";
+        catResponses[37] = "CATacular! 11/10.";
         catResponses[38] = "Marvelous. 9/10.";
         catResponses[39] = "Weird looking cat, 10/10.";
         catResponses[40] = "Downright awe-inspiring 12/10.";
@@ -219,7 +219,9 @@ public final class RateActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Random generator = new Random();
                 int i = generator.nextInt(100);
-                if (photoView.getVisibility() == View.VISIBLE) {
+                if (photoView == null) {
+                    text.setText(noPic);
+                } else if (photoView.getVisibility() == View.VISIBLE) {
                     if (text.getText().equals("")) {
                         while (i == getCurrent()) {
                             i = generator.nextInt(100);
